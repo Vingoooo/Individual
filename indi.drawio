@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="715" dy="410" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="592" dy="339" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -50,6 +50,9 @@
         <mxCell id="5EajBMp7Mt5aTJdm5W2c-4" value="躯干建模" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="10" y="230" width="80" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="Zq_S9eZLPI8Z5EjiFPR7-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5EajBMp7Mt5aTJdm5W2c-6" target="Zq_S9eZLPI8Z5EjiFPR7-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5EajBMp7Mt5aTJdm5W2c-6" value="心脏腔室建模" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="100" y="230" width="80" height="40" as="geometry" />
         </mxCell>
@@ -77,17 +80,32 @@
         <mxCell id="Zq_S9eZLPI8Z5EjiFPR7-11" value="函数拟合" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="280" y="300" width="80" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="Zq_S9eZLPI8Z5EjiFPR7-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Zq_S9eZLPI8Z5EjiFPR7-12" target="Zq_S9eZLPI8Z5EjiFPR7-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Zq_S9eZLPI8Z5EjiFPR7-12" value="三维点云重建" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="100" y="300" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Zq_S9eZLPI8Z5EjiFPR7-14" value="函数特征" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="280" y="370" width="80" height="40" as="geometry" />
+        <mxCell id="Zq_S9eZLPI8Z5EjiFPR7-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Zq_S9eZLPI8Z5EjiFPR7-14" target="Zq_S9eZLPI8Z5EjiFPR7-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zq_S9eZLPI8Z5EjiFPR7-14" value="AP(t)=&lt;div&gt;f(t,class,af,bf,cf...)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="270" y="370" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Zq_S9eZLPI8Z5EjiFPR7-16" value="函数特征" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="370" y="300" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Zq_S9eZLPI8Z5EjiFPR7-18" value="细胞分类" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Zq_S9eZLPI8Z5EjiFPR7-18" value="P(i)=&lt;div&gt;(x(i),y(i),z(i))&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="100" y="370" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zq_S9eZLPI8Z5EjiFPR7-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Zq_S9eZLPI8Z5EjiFPR7-21" target="Zq_S9eZLPI8Z5EjiFPR7-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zq_S9eZLPI8Z5EjiFPR7-21" value="函数特征" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="440" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zq_S9eZLPI8Z5EjiFPR7-23" value="函数特征" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="510" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
